@@ -1,8 +1,8 @@
-appVersion: eksctl.io/v1alpha5
+apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: expense-
+  name: expense-cluster
   region: us-east-1
 
 managedNodeGroups:
